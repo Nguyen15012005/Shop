@@ -1,4 +1,5 @@
 .popular {
+    margin-top: 30PX;
     display: flex;
     flex-direction: column;
     align-items: center;

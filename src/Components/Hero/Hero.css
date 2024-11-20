@@ -1,27 +1,55 @@
 .hero {
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-image: url('../Assets/hero_main.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../Assets/hero_main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: -1; 
 }
 
 .hero-left {
+    margin-top: 200px;
     flex: 1;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
     gap: 20px;
     padding-left: 180px;
     line-height: 1.1;
 }
 
 .hero-left h2 {
-    color: #090909;
-    font-size: 26px;
+    width: 70%;
+    margin-top: 200px;
+    color: rgb(232, 180, 180);
+    font-size: 40px;
     font-weight: 600;
+    margin-left: -110px;  /* Nếu cần thiết */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 5px rgba(1, 2, 3, 0.5);  /* Điều chỉnh box-shadow */
+    
 }
 
+
 .hero-left p {
-    color: #171717;
+    color: white;
     font-size: 100px;
     font-weight: 700;
 }
@@ -41,14 +69,16 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
+    width: 30%;
     height: 70px;
     border-radius: 75px;
-    margin-top: 30px;
     background: #ff4141;
     color: white;
     font-size: 10px;
     font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 190px;
+    font-size: 20px;
 }
 
 .hero-right {

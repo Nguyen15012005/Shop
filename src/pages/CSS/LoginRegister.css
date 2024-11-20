@@ -1,0 +1,71 @@
+.loginregister {
+    width: 100%;
+    height: 100%;
+    background: #fce3fe;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.loginregister-container {
+    width: 580px;
+    height: 700px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginregister-container h1 {
+    margin: 0px 0px;
+}
+
+.loginregister-fields { 
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.loginregister-fields input {
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.loginregister-container button {
+    width: 200px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginregister-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginregister-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+
+.loginregister-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
